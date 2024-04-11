@@ -1,0 +1,21 @@
+[2.139s] Invoking command in '/home/bence/ros2_ws/build/ros2_course': PYTHONPATH=/home/bence/ros2_ws/build/ros2_course/prefix_override:/home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/bence/ros2_ws/build/ros2_course/build --no-deps install_data
+[2.809s] running develop
+[2.809s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.810s]   warnings.warn(
+[2.814s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.814s]   warnings.warn(
+[3.325s] running egg_info
+[3.326s] writing ros2_course.egg-info/PKG-INFO
+[3.327s] writing dependency_links to ros2_course.egg-info/dependency_links.txt
+[3.328s] writing entry points to ros2_course.egg-info/entry_points.txt
+[3.329s] writing requirements to ros2_course.egg-info/requires.txt
+[3.329s] writing top-level names to ros2_course.egg-info/top_level.txt
+[3.336s] reading manifest file 'ros2_course.egg-info/SOURCES.txt'
+[3.338s] writing manifest file 'ros2_course.egg-info/SOURCES.txt'
+[3.345s] running build_ext
+[3.345s] Creating /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)
+[3.350s] Installing grasp_controller script to /home/bence/ros2_ws/install/ros2_course/lib/ros2_course
+[3.352s] 
+[3.352s] Installed /home/bence/ros2_ws/build/ros2_course
+[3.352s] running install_data
+[3.466s] Invoked command in '/home/bence/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/bence/ros2_ws/build/ros2_course/prefix_override:/home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/bence/ros2_ws/build/ros2_course/build --no-deps install_data

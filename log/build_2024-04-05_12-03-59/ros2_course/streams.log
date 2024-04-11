@@ -1,0 +1,46 @@
+[2.299s] Invoking command in '/home/bence/ros2_ws/build/ros2_course': PYTHONPATH=/home/bence/ros2_ws/build/ros2_course/prefix_override:/home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/bence/ros2_ws/build/ros2_course/build
+[3.016s] running develop
+[3.016s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.016s]   warnings.warn(
+[3.020s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.020s]   warnings.warn(
+[3.453s] Removing /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2-course.egg-link (link to .)
+[3.575s] Invoked command in '/home/bence/ros2_ws/build/ros2_course' returned '0': PYTHONPATH=/home/bence/ros2_ws/build/ros2_course/prefix_override:/home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/bence/ros2_ws/build/ros2_course/build
+[3.579s] Invoking command in '/home/bence/ros2_ws/src/ros2_course': PYTHONPATH=/home/bence/ros2_ws/build/ros2_course/prefix_override:/home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/bence/ros2_ws/build/ros2_course/build install --record /home/bence/ros2_ws/build/ros2_course/install.log --single-version-externally-managed
+[4.241s] running egg_info
+[4.244s] writing ../../build/ros2_course/ros2_course.egg-info/PKG-INFO
+[4.245s] writing dependency_links to ../../build/ros2_course/ros2_course.egg-info/dependency_links.txt
+[4.246s] writing entry points to ../../build/ros2_course/ros2_course.egg-info/entry_points.txt
+[4.246s] writing requirements to ../../build/ros2_course/ros2_course.egg-info/requires.txt
+[4.250s] writing top-level names to ../../build/ros2_course/ros2_course.egg-info/top_level.txt
+[4.258s] reading manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[4.262s] writing manifest file '../../build/ros2_course/ros2_course.egg-info/SOURCES.txt'
+[4.263s] running build
+[4.263s] running build_py
+[4.264s] creating /home/bence/ros2_ws/build/ros2_course/build
+[4.264s] creating /home/bence/ros2_ws/build/ros2_course/build/lib
+[4.265s] creating /home/bence/ros2_ws/build/ros2_course/build/lib/ros2_course
+[4.265s] copying ros2_course/hello.py -> /home/bence/ros2_ws/build/ros2_course/build/lib/ros2_course
+[4.265s] copying ros2_course/psm_grasp.py -> /home/bence/ros2_ws/build/ros2_course/build/lib/ros2_course
+[4.265s] copying ros2_course/__init__.py -> /home/bence/ros2_ws/build/ros2_course/build/lib/ros2_course
+[4.266s] copying ros2_course/turtlesim_controller.py -> /home/bence/ros2_ws/build/ros2_course/build/lib/ros2_course
+[4.266s] running install
+[4.266s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.267s]   warnings.warn(
+[4.267s] running install_lib
+[4.270s] creating /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[4.271s] copying /home/bence/ros2_ws/build/ros2_course/build/lib/ros2_course/hello.py -> /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[4.271s] copying /home/bence/ros2_ws/build/ros2_course/build/lib/ros2_course/psm_grasp.py -> /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[4.271s] copying /home/bence/ros2_ws/build/ros2_course/build/lib/ros2_course/__init__.py -> /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[4.272s] copying /home/bence/ros2_ws/build/ros2_course/build/lib/ros2_course/turtlesim_controller.py -> /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course
+[4.274s] byte-compiling /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/hello.py to hello.cpython-310.pyc
+[4.275s] byte-compiling /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/psm_grasp.py to psm_grasp.cpython-310.pyc
+[4.277s] byte-compiling /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/__init__.py to __init__.cpython-310.pyc
+[4.277s] byte-compiling /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course/turtlesim_controller.py to turtlesim_controller.cpython-310.pyc
+[4.280s] running install_data
+[4.282s] running install_egg_info
+[4.286s] Copying ../../build/ros2_course/ros2_course.egg-info to /home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages/ros2_course-0.0.0-py3.10.egg-info
+[4.289s] running install_scripts
+[4.341s] Installing grasp_controller script to /home/bence/ros2_ws/install/ros2_course/lib/ros2_course
+[4.343s] writing list of installed files to '/home/bence/ros2_ws/build/ros2_course/install.log'
+[4.440s] Invoked command in '/home/bence/ros2_ws/src/ros2_course' returned '0': PYTHONPATH=/home/bence/ros2_ws/build/ros2_course/prefix_override:/home/bence/ros2_ws/install/ros2_course/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_course build --build-base /home/bence/ros2_ws/build/ros2_course/build install --record /home/bence/ros2_ws/build/ros2_course/install.log --single-version-externally-managed
