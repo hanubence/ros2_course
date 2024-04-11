@@ -175,19 +175,25 @@ class PSM(Node):
 
         T = dist / v
         N = int(math.floor(T / dt))
-
+        
+        # this linspace defines the N steps between 0 and 2pi
         theta = np.linspace(0, 2 * np.pi, N)
 
+        # using the theta range and sine cosine functions
+        # we get the x and y coordinates
+        # multiplying by r to scale it up to the input radius
+        # marker_np is used as the center of the circle
         tr_x = marker_np[0] + r * np.cos(theta)
         tr_y = marker_np[1] + r * np.sin(theta)
+
+
         loop_rate = self.create_rate(1/dt, self.get_clock())  # Hz
 
-        print(tr_x)
-
+        # loop through the resulting trajectory to move the robot
         for i in range(N):
             if not rclpy.ok():
                 break
-
+            
             msg.header.stamp = self.get_clock().now().to_msg()
             msg.pose.position.x = tr_x[i]
             msg.pose.position.y = tr_y[i]
